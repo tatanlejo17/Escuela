@@ -39,7 +39,7 @@ namespace CoreEscuela
 
                         for (int i = 0; i < 5; i++)
                         {
-                            var ev = new Evaluación
+                            var ev = new Evaluacion
                             {
                                 Asignatura = asignatura,
                                 Nombre = $"{asignatura.Nombre} Ev#{i + 1}",
